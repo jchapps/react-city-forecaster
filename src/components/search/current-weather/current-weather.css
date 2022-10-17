@@ -3,10 +3,10 @@
   border-radius: 10px;
   box-shadow: 10px -2px 20px -2px rgb(0 0 0 /30%);
   color: white;
-  background-color: #2B3A67;
-  opacity: .9;
+  background-color: #2b3a67;
+  opacity: 0.9;
   margin: 20px auto 0 auto;
-  padding: 3px 20px 20px 20px
+  padding: 3px 20px 20px 20px;
 }
 
 .top,
@@ -17,12 +17,11 @@
 }
 
 .city {
-  font-weight: 600px;
-  font-size: 18px;
+  font-weight: 800;
+  font-size: 32px;
   line-height: 1;
   margin: 0;
   letter-spacing: 1px;
-
 }
 
 .weather-type {
@@ -32,14 +31,14 @@
 }
 
 .weather-icon {
-  width: 150px
+  width: 150px;
 }
 
 .temperature {
   font-weight: 600;
   font-size: 70px;
   letter-spacing: -5px;
-  margin: 10px 0
+  margin: 10px 0;
 }
 
 .details {
@@ -52,7 +51,7 @@
   justify-content: space-between;
 }
 
-.para-label{
+.para-label {
   text-align: left;
   font-weight: 400;
   font-size: 12px;
