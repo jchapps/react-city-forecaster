@@ -1,4 +1,4 @@
-import "./current-weather.css"
+import "./current-weather.css";
 
 const CurrentWeather = () => {
   return (
@@ -7,9 +7,9 @@ const CurrentWeather = () => {
         <p className="city">London</p>
         <p className="weather">Cloudy</p>
       </div>
-      <img alt="weather" className="weather-icon"/>
+      <img alt="weather" className="weather-icon" src="icons/01d.png" />
     </div>
-  )
-}
+  );
+};
 
-export default CurrentWeather
+export default CurrentWeather;
