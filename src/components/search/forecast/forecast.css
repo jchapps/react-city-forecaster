@@ -1,0 +1,44 @@
+.title {
+  font-size: 23px;
+  color: white;
+}
+
+.hourly-item {
+  background-color: #3f5082;
+  border-radius: 15px;
+  height: 40px;
+  margin: 5px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 20px;
+  color: white;
+}
+
+.icon-small {
+  width: 40px;
+}
+
+.hour {
+  color: white;
+  flex: 1 1;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.description {
+  flex: 1 1;
+  margin-right: 15px;
+  text-align: right;
+  color: white;
+}
+
+.temp {
+  color: white;
+}
+
+.hourly-details-grid {
+  grid-row-gap: 0;
+
+}
