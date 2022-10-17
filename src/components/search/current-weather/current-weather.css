@@ -32,7 +32,7 @@
 }
 
 .weather-icon {
-  width: 100px
+  width: 150px
 }
 
 .temperature {
@@ -56,6 +56,10 @@
   text-align: left;
   font-weight: 400;
   font-size: 12px;
+}
+
+.para-label.top {
+  font-weight: 800;
 }
 
 .para-value {
