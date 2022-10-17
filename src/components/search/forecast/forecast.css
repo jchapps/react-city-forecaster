@@ -14,7 +14,6 @@
   font-size: 14px;
   padding: 5px 20px;
   color: white;
-
 }
 
 .icon-small {
@@ -33,6 +32,7 @@
   margin-right: 15px;
   text-align: right;
   color: white;
+  text-transform: capitalize;
 }
 
 .temp {
@@ -49,8 +49,7 @@
   grid-template-columns: auto auto;
   padding: 5px 15px;
   border-radius: 15px;
-
-  background-color: #BFD7EA;
+  background-color: #92BCEA;
 }
 
 .hourly-details-grid-item {
