@@ -1,6 +1,9 @@
-.title {
+.forecast-title {
   font-size: 23px;
   color: white;
+  font-weight: 900;
+  text-align: center;
+  padding: 10px 15px 15px 10px;;
 }
 
 .hourly-item {

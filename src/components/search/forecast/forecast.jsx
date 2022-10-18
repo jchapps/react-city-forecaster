@@ -12,7 +12,7 @@ const HOURS = ["3", "6", "9", "12", "15", "18", "21", "24"];
 const Forecast = ({ data }) => {
   return (
     <>
-      <label className="title">Next 24 hours</label>
+      <div className="forecast-title">Next 24 hours</div>
       <Accordion allowZeroExpanded>
         {data.list.slice(0, 8).map((item, index) => (
           <AccordionItem key={index}>
@@ -64,6 +64,7 @@ const Forecast = ({ data }) => {
         ))}
       </Accordion>
     </>
+
   );
 };
 

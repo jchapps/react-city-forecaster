@@ -67,3 +67,12 @@
   font-weight: 600;
   font-size: 12px;
 }
+
+.title {
+  text-align: center;
+  margin: 10px;
+  font-weight: 900;
+  font-size: 23px;
+  color: white;
+  padding-top: 5px;
+}
