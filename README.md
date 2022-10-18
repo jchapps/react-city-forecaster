@@ -1,3 +1,10 @@
+![screenshot](./screenshots/screenshot1.png)
+
+# ⛅ Weather Forecase App
+
+Web app built in React.js to practice RESTFUL API implementation. Search for cities to see the current weather and next 24hours.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
