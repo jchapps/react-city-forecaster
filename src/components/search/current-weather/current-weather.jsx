@@ -1,8 +1,6 @@
 import "./current-weather.css";
 
 const CurrentWeather = ({ data }) => {
-
-
   return (
     <div className="title">
       Current Weather

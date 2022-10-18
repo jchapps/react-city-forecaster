@@ -17,6 +17,12 @@
   font-size: 14px;
   padding: 5px 20px;
   color: white;
+  transition: 0.3s
+}
+
+.hourly-item:hover {
+  background-color: #92BCEA;
+  transition: 0.3;
 }
 
 .icon-small {
@@ -36,6 +42,11 @@
   text-align: right;
   color: white;
   text-transform: capitalize;
+  cursor: pointer;
+}
+
+.hour {
+  cursor: pointer;
 }
 
 .temp {
@@ -61,6 +72,7 @@
   height: 30px;
   justify-content: space-between;
 }
+
 
 .hourly-details-grid-item label:first-child {
   font-weight: 600;
