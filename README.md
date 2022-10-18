@@ -2,8 +2,8 @@
 
 # ⛅ Weather Forecast App
 
-Web app built in React.js to practice RESTFUL API implementation and conventional commits. 
-Search for cities to see the current weather and next 24hours.
+Web app built in React.js to practice RESTFUL API implementation and conventional commits.
+Search for cities to see the current weather and 24hour forecast.
 
 # Getting Started with Create React App
 
