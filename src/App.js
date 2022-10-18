@@ -38,7 +38,7 @@ function App() {
     <div className="container">
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
-      {forecast && <Forecast data={forecast}/>}
+      {forecast && <Forecast data={forecast}/>} <h1 className="instructions">🌎 Use the search bar to find a city 🌍</h1>
     </div>
   );
 }

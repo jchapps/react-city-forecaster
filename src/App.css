@@ -2,3 +2,8 @@
   max-width: 1080px;
   margin: 20px auto
 }
+
+.instructions {
+  color: white;
+  text-align: center;
+}
