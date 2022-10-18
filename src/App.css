@@ -1,9 +1,14 @@
 .container {
   max-width: 1080px;
-  margin: 20px auto
+  margin: 20px auto;
 }
 
 .instructions {
   color: white;
   text-align: center;
+}
+
+.searchlogo {
+  display: block;
+  margin: 0 auto;
 }

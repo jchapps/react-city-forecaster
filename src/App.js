@@ -1,7 +1,7 @@
 import CurrentWeather from "./components/search/current-weather/current-weather";
 import "./App.css";
 import "../src/components/search/current-weather/current-weather.css";
-import Search from "./components/search/Search";
+import Search from "./components/search/search/Search";
 import { WEATHER_API_KEY, WEATHER_API_URL } from "./api";
 import { useState } from "react";
 import Forecast from "./components/search/forecast/forecast";
@@ -9,6 +9,21 @@ import Forecast from "./components/search/forecast/forecast";
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
+
+  function preRender() {
+    if (forecast === null) {
+      return (
+        <>
+          <h1 className="instructions">Use the search bar to find a city🔍</h1>
+          <img
+            className="searchlogo"
+            src="https://cliply.co/wp-content/uploads/2021/02/392102850_EARTH_EMOJI_400px.gif"
+            alt="world"
+          />
+        </>
+      );
+    }
+  }
 
   const handleOnSearchChange = (searchData) => {
     const [lat, lon] = searchData.value.split(" ");
@@ -31,14 +46,12 @@ function App() {
       .catch(console.log);
   };
 
-  console.log(currentWeather);
-  console.log(forecast);
-
   return (
     <div className="container">
       <Search onSearchChange={handleOnSearchChange} />
+      {preRender()}
       {currentWeather && <CurrentWeather data={currentWeather} />}
-      {forecast && <Forecast data={forecast}/>} <h1 className="instructions">🌎 Use the search bar to find a city 🌍</h1>
+      {forecast && <Forecast data={forecast} />}
     </div>
   );
 }

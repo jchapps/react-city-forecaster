@@ -25,7 +25,7 @@ const Forecast = ({ data }) => {
                     src={`icons/${item.weather[0].icon}.png`}
                   />
                   <label key={index} className="hour">
-                    {HOURS[index]} Hours later 🕑
+                    {HOURS[index]} Hours later  🕑
                   </label>
                   <label key={index} className="description">
                     {item.weather[0].description}
