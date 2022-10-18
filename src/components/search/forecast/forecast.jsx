@@ -5,7 +5,7 @@ import {
   AccordionItemHeading,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-import './forecast.css'
+import "./forecast.css";
 
 const HOURS = ["3", "6", "9", "12", "15", "18", "21", "24"];
 
@@ -64,7 +64,6 @@ const Forecast = ({ data }) => {
         ))}
       </Accordion>
     </>
-
   );
 };
 
