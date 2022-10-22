@@ -1,6 +1,6 @@
 ![screenshot](./screenshots/screenshot1.png)
 
-# ⛅ Weather Forecast App
+# ⛅ City Forecaster
 
 Web app built in React.js to practice RESTFUL API implementation and conventional commits.
 Search for cities to see the current weather and 24hour forecast.
