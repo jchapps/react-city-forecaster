@@ -10,9 +10,7 @@ function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
 
-  function preRender() {
-    if (forecast === null) {
-      return (
+  const preRender =
         <>
           <h1 className="instructions">Use the search bar to find a city🔍</h1>
           <img
@@ -21,9 +19,7 @@ function App() {
             alt="world"
           />
         </>
-      );
-    }
-  }
+
 
   const handleOnSearchChange = (searchData) => {
     const [lat, lon] = searchData.value.split(" ");
@@ -49,7 +45,7 @@ function App() {
   return (
     <div className="container">
       <Search onSearchChange={handleOnSearchChange} />
-      {preRender()}
+      {!currentWeather && preRender}
       {currentWeather && <CurrentWeather data={currentWeather} />}
       {forecast && <Forecast data={forecast} />}
     </div>
